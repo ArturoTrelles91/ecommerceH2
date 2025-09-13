@@ -352,7 +352,7 @@ IntelliJ descargará automáticamente todas las dependencias de Maven y creará 
 | `spring-boot-starter-web` | Para exponer tu servicio REST (controladores) |
 | `spring-boot-devtools` | Reinicio automático al guardar (solo en desarrollo) |
 | `h2` | Base de datos en memoria |
-| `spring-boot-starter-test` | JUnit \+ pruebas (opcional en la entrevista) |
+| `spring-boot-starter-test` | JUnit \+ pruebas |
 
 ---
 
@@ -1129,16 +1129,6 @@ Que agregue los productos con esos IDs a la orden con ID `orderId`.
 
 ---
 
-¿Listo para que empecemos con el paso 1?
-
-##### **Dijiste:**
-
-funcionalidad para asociar productos existentes a una orden existente. esto es parte de los objetivos del proyecto?
-
-###### **ChatGPT dijo:**
-
-Sí, esta funcionalidad **sí es parte del objetivo típico de un sistema básico de órdenes**, como el que estás desarrollando en tu entrevista técnica con myorder. Dado que ya modelaste las entidades `Product` y `Order`, es natural y esperado que una orden:
-
 * pueda contener **uno o más productos**, y
 
 * cada producto pueda estar en **cero o más órdenes** (si usas un modelo reutilizable).
@@ -1499,14 +1489,6 @@ A continuación podrías:
 
 4o
 
-##### **Dijiste:**
-
-en que punto del proyecto estamos?
-
-###### **ChatGPT dijo:**
-
-Estás en un punto muy sólido del desarrollo. ✅ Hasta ahora has implementado con éxito la **base funcional completa de un sistema de gestión de órdenes**, con relaciones entre entidades y endpoints operativos. Aquí te hago un resumen exacto de dónde estás:
-
 ---
 
 ### **🔧 FUNCIONALIDAD IMPLEMENTADA HASTA AHORA:**
@@ -1583,23 +1565,8 @@ Puedes elegir avanzar en alguna de estas direcciones:
 
 ---
 
-¿Quieres que el proyecto siga por alguna de esas líneas o te gustaría preparar una entrega/documentación?
 
-4o
-
-##### **Dijiste:**
-
-todo me agrada, solo quiero saber para lo que consiste la entrevista con el estado actual se cumpliria el objetivo de la entrevista?
-
-###### **ChatGPT dijo:**
-
-Sí, **con el estado actual del proyecto estás cumpliendo sobradamente el objetivo técnico típico de una entrevista para un puesto de Desarrollador Jr Fullstack en myorder o una empresa similar**. Aquí está el desglose en relación con lo que generalmente se espera:
-
----
-
-### **✅ Objetivos típicos de una entrevista técnica como esta**
-
-Y cómo los estás cumpliendo:
+### **✅ Objetivos 
 
 | Objetivo | ¿Cumplido? | Detalles |
 | ----- | ----- | ----- |
@@ -1625,7 +1592,7 @@ Y cómo los estás cumpliendo:
 
 ### **🟢 Conclusión:**
 
-**Sí, estás más que listo para la entrevista.** Has mostrado dominio sobre:
+Dominio sobre:
 
 * Spring Boot
 
